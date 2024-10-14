@@ -1,23 +1,3 @@
-// import express from "express";
-// import dotenv from "dotenv";
-// import { connectDB } from "./config/db.js";
-// const app = express();
-// dotenv.config();
-
-// const PORT = process.env.PORT
-
-// app.get("/", (req, res) => {
-//     res.send("Hello");
-// });
-
-// console.log(process.env.MONGO_URI)
-
-// app.listen(PORT, (req, res) => {
-//     connectDB();
-//     console.log(`Server started running on Port ${PORT}`)
-// })
-
-
 // server.js
 import express from 'express';
 import dotenv from 'dotenv';
