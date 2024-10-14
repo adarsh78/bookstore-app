@@ -43,6 +43,10 @@ app.get('/', (req, res) => {
   res.send('Hello Express');
 });
 
+app.get('/api/test', (req, res) => {
+  res.send('API is working!');
+});
+
 // Start Server
 const PORT = process.env.PORT || 3010;
 app.listen(PORT, () => {
