@@ -41,22 +41,26 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/bookstore-api.git
 cd bookstore-api
+```
 
 ## Install dependencies
 
-npm install
+```npm install ```
 
 ## Accessing the API
 # Once the server is running, you can access the following endpoints:
 
-Swagger UI Documentation: http://localhost:3010/api-docs
-Health Check: http://localhost:3010/
-API Endpoints
-Auth Endpoints
+Swagger UI Documentation: [http://localhost:3010/api-docs](https://bookstore-app-xo92.onrender.com/api-docs/)
+Health Check: [http://localhost:3010/](https://bookstore-app-xo92.onrender.com/)
+Books: [http://localhost:3010/api/books](https://bookstore-app-xo92.onrender.com/api/books)
+
+## API Endpoints
+# Auth Endpoints
 Method	Endpoint	Description
 POST	/api/auth/register	Register a new user
 POST	/api/auth/login	Login an existing user
-Books Endpoints
+
+# Books Endpoints
 Method	Endpoint	Description
 GET	/api/books	Get all books
 POST	/api/books	Create a new book (Auth)
